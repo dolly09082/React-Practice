@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import About from "./screens/About"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  return <About/>;
+
+    
 }
 
 export default App;
+//Basic App Create - Done
+//Screens and Components -Organize
+
+//App.js -> src/
+//screems/About.js
+// ./ -Current Directory
+// ../ - to move to a directory above
