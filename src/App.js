@@ -1,10 +1,18 @@
 //import logo from './logo.svg';
-import './App.css';
-import About from "./screens/About"
+//import './App.css';
+//import About from "./screens/About"
+//import Contact from "./screens/Contact";
+import Register from"./screens/Register";
 
 function App() {
 
-  return <About/>;
+  return(
+    <div>
+     <Register/>
+    
+  
+    </div> 
+  );
 
     
 }
